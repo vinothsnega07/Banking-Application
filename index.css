@@ -1,0 +1,88 @@
+/* body{
+    background-color: aqua;
+} */
+.main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+.form{
+    /* background-color: rgba(241, 189, 0, 0.461); */
+    width: 450px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 20px;
+    padding: 20px;
+}
+form .user{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+form .user input{
+    margin-top:10px;
+    padding-left:10px;
+    border-radius: 5px;
+    width: 270px;
+    height: 32px;
+}
+form .pass{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+form .pass input{
+    margin-top:10px;
+    padding-left:10px;
+    border-radius: 5px;
+    height: 32px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;   
+}
+form .login button{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+   
+}
+
+.signup a{
+    text-decoration: none;
+    color: white;
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;   
+}
+form .signup button{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 15px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+}
+
+form button:hover{
+    background-color: rgb(5, 227, 5);
+    cursor: pointer;
+}

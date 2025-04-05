@@ -1,0 +1,56 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    /* background-color: aqua; */
+}
+.all{
+    width: 320px;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.all h2{
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    text-align: center;
+}
+.m{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    margin-top: 25px;
+    font-size: 17px;
+}
+.m input{
+    height: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+}
+.m select{
+    width: 120px;
+    height: 25px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;   
+    margin-top: 25px;
+}
+form .submit button{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 18px;
+    border-radius: 35px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* width: 100%; */
+}
+form .submit button:hover{
+    background-color: rgb(5, 227, 5);
+}
